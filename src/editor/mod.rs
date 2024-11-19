@@ -1,9 +1,11 @@
 pub mod buffer;
 pub mod cursor;
 pub mod input;
+pub mod mode;
 
 use buffer::Buffer;
 use cursor::Cursor;
+use mode::MODE;
 
 pub struct Editor {
     buffer: Buffer,

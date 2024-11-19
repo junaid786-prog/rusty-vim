@@ -1,9 +1,9 @@
 pub struct Cursor {
-    pub x: u32,
-    pub y: u32
+    pub x: usize,
+    pub y: usize
 }
 
-const MAX_X: u32 = 1000;
+const MAX_X: usize = 1000;
 
 impl Cursor {
     pub fn new() -> Self {
